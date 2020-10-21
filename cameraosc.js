@@ -20,18 +20,10 @@ import Stats from 'stats.js';
 
 import {drawBoundingBox, drawKeypoints, drawSkeleton} from './demo_util';
 
+// Mac default web_camera
+const videoWidth = 720;
+const videoHeight = 540;
 
-const videoWidth = 1920 / 3;
-const videoHeight = 1080 / 3;
-
-//const videoWidth = 500;
-//const videoHeight = 600;
-
-// const videoWidth = 550;
-// const videoHeight = 650;
-
-// const videoWidth = 1200;
-// const videoHeight = 600;
 const stats = new Stats();
 
 const OSC = require('osc-js');

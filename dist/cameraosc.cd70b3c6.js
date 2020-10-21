@@ -58215,14 +58215,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * limitations under the License.
  * =============================================================================
  */
-const videoWidth = 1920 / 3;
-const videoHeight = 1080 / 3; //const videoWidth = 500;
-//const videoHeight = 600;
-// const videoWidth = 550;
-// const videoHeight = 650;
-// const videoWidth = 1200;
-// const videoHeight = 600;
-
+// Mac default web_camera
+const videoWidth = 720;
+const videoHeight = 540;
 const stats = new _stats.default();
 
 const OSC = require('osc-js');
