@@ -56737,7 +56737,7 @@ module.exports = ws
 var define;
 var global = arguments[3];
 var Buffer = require("buffer").Buffer;
-var __dirname = "/Users/xai/Documents/GitHub/DDA-PoseNet/node_modules/osc-js/lib";
+var __dirname = "/Users/ryosimon/GitHub/DDA-PoseNet/node_modules/osc-js/lib";
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
